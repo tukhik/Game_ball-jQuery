@@ -1,0 +1,104 @@
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: lightgray;
+}
+
+.row {
+  width: 1020px;
+  height: 600px;
+  margin: auto;
+  /* display: flex;*/
+}
+
+.area {
+  background-color: white;
+  border: 6px solid #7922CC;
+  position: relative;
+}
+
+.buttons,
+.result {
+  font-size: 30px;
+}
+
+.start,
+.end,
+.pouse {
+  width: 200px;
+  height: 60px;
+  font-size: 16px;
+  border-radius: 25px;
+  align-items: center;
+  border: 4px solid green;
+  margin-bottom: 30px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.start:disabled {
+  background-color: #dddddd;
+  border: 4px solid #dddddd;
+  font-size: 30px;
+  cursor: none;
+}
+
+.start:disabled:hover {
+  color: #b2b2b2;
+}
+
+.end {
+  border: 4px solid red;
+}
+
+.pouse {
+  border: 4px solid yellow;
+}
+
+.end:hover {
+  color: red;
+}
+
+.pouse:hover {
+  color: yellow;
+}
+
+.start:hover {
+  color: darkgreen;
+}
+
+.bol {
+  border-radius: 100%;
+  position: absolute;
+  background-color: darkcyan;
+}
+
+.box {
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+}
+
+.result div {
+  width: 100px;
+}
+
+.result {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  margin: auto;
+}
+
+.got {
+  color: blue;
+  margin-right: 20px;
+}
+
+.lost {
+  color: red;
+}
